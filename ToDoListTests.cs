@@ -42,7 +42,7 @@ namespace ToDoList
             var inputDate = driver.FindElementById("com.splendapps.splendo:id/edtDueD");
             inputDate.Click();
 
-            var inputDateCalendar = driver.FindElementByXPath("//android.view.View[@content-desc=\"31 October 2023\"]");
+            var inputDateCalendar = driver.FindElementByXPath("//android.view.View[@content-desc=\"17 November 2023\"]");
             inputDateCalendar.Click();
 
             var okButtonCalendar = driver.FindElementById("android:id/button1");
